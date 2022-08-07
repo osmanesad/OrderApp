@@ -7,9 +7,9 @@ struct ContentView: View {
 
 VStack {
    
-         ContentHeaderView()
-        MenuListView()
-       OrderListView()
+    ContentHeaderView()
+    MenuListView()
+    OrderListView()
 
         }
         

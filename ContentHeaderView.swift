@@ -4,16 +4,16 @@ struct ContentHeaderView: View{
     var body: some View{
        
       ZStack{
-Image("arrow")
+Image("logo")
          .resizable()
          .scaleToFit()
-         Text("1318 Kitap & Kafe") // Mekan ismi.
+         Text("Kitap&Kafe") // Mekan ismi.
          .font(.title)
 
     }
 
         
-        Text("Kek Satın Al")
+        Text("Satın Al")
          .font(.largeTitle)
 }
 
