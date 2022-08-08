@@ -8,6 +8,7 @@ struct ContentView: View {
 VStack {
    
     ContentHeaderView()
+    PageTitleView(title:"Satın Al")
     MenuListView()
     OrderListView()
 

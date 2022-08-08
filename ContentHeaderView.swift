@@ -3,8 +3,8 @@ import SwiftUI
 struct ContentHeaderView: View{
     var body: some View{
        
-      ZStack{
-Image("logo")
+    ZStack{
+    Image("logo")
          .resizable()
          .scaleToFit()
          Text("Kitap&Kafe") // Mekan ismi.
@@ -12,9 +12,7 @@ Image("logo")
 
     }
 
-        
-        Text("Satın Al")
-         .font(.largeTitle)
+      // PageTitleView()
 }
 
 struct ContentHeaderView_Previews: PreviewProvider {

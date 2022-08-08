@@ -5,21 +5,11 @@ struct MenuListView: View{
        VStack{
         Text("Kategori")
         List(0..< 5){ item in
-        HStack(alignment: .top, spacing: 15){
 
-         Image("cake")
-         VStack{
-            Text("Kek Dilimi")
-            HStack{
-            ForEach(0..<4){item in
-              Image("cake-slice")
-            }
-            }
-            
-         }
-         
-         Spacer()
+        MenuRowView()
+       
         }
+
         }
        }
         
@@ -31,3 +21,4 @@ struct MenuListView_Previews: PreviewProvider {
         MenuListView()
     }
 }
+
