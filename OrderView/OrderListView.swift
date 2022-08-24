@@ -3,7 +3,7 @@ import SwiftUI
 struct OrderListView: View{
     var body: some View{
         VStack{
-          Text("Ürünler")
+          ListHeaderView(text:"")
         List(0..<5){item in
          
           OrderRowView()
